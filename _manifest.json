@@ -1,0 +1,39 @@
+{
+  "manifest_version": 1,
+  "name": "JM 查询插件",
+  "version": "1.0.0",
+  "description": "提供 JM 编号元信息查询功能（meta-only）",
+  "author": {
+    "name": "jiangbei",
+    "url": "https://github.com/meiyou"
+  },
+  "license": "GPL-3.0",
+  "host_application": {
+    "min_version": "0.11.6",
+    "max_version": "0.11.6"
+  },
+  "homepage_url": "https://github.com/meiyou",
+  "repository_url": "https://github.com/meiyou",
+  "keywords": [
+    "JM",
+    "查询",
+    "元信息"
+  ],
+  "categories": [
+    "Data Analysis & Insights"
+  ],
+  "default_locale": "zh-CN",
+  "locales_path": "_locales",
+  "plugin_info": {
+    "is_built_in": false,
+    "plugin_type": "general",
+    "components": [
+      {
+        "type": "command",
+        "name": "jm_query",
+        "description": "JM 编号元信息查询（meta-only）"
+      }
+    ]
+  },
+  "id": "jiangbei.jm_query_plugin"
+}
